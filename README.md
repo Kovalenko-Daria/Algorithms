@@ -18,3 +18,6 @@ The input data is the minimum and maximum values at which the hidden number can 
 
 * _Sort_<br>
 This file consists of 5 sorts, including insert sort, choice sort, bubble sort, fast sort, merge sort. Each of the sorts receives an unsorted array of numbers as an input value, and returns an array sorted in ascending order.
+
+* _Generation of sequences_<br>
+This file contains function which generates placements with repetitions and function which generates permutations without repetitions. Each of them receives an array of values as well as length of one combination and saves arrays with sequences in global array called "place".

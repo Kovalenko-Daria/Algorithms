@@ -30,3 +30,6 @@ This file contains two functions that work with subsequences. The first one look
 
 * _KMP_<br>
 This file contains an implementation of the Knuth-Morris-Pratt algorithm for searching for a substring in a string. The KMP function receives a comma-separated string and substring as input, and returns an array with indexes of the occurrence of the substring in the string.
+
+* _Levenshtein distance_<br>
+This file contains an implementation of the minimum editorial distance search using the Levenshtein algorithm. The function receives two strings as input and returns the minimum number of changes that need to be made to get the second one from the first line. Possible changes may be the addition of a symbol, the removal of a symbol, and the replacement of a symbol.

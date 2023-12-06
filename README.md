@@ -24,3 +24,6 @@ This file contains function which generates placements with repetitions and func
 
 * _Check of bracket sequences_<br>
 This file contains a function that accepts a string with a bracket sequence of three types of brackets - (), {}, [] - as input and checks correctness of the bracket expression. In case of correctness, the Truth is returned, otherwise - False.
+
+* _Subsequences_<br>
+This file contains two functions that work with subsequences. The first one looks for the largest common subsequence of two sequences and is called lcs(). It takes two strings and returns the length of the desired subsequence. The second function works with a single sequence, in which it searches for the greatest increasing subsequence and is called gis. It takes a string and returns the length of the greatest increasing subsequence.

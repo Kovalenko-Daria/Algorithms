@@ -21,3 +21,6 @@ This file consists of 5 sorts, including insert sort, choice sort, bubble sort, 
 
 * _Generation of sequences_<br>
 This file contains function which generates placements with repetitions and function which generates permutations without repetitions. Each of them receives an array of values as well as length of one combination and saves arrays with sequences in global array called "place".
+
+* _Check of bracket sequences_<br>
+This file contains a function that accepts a string with a bracket sequence of three types of brackets - (), {}, [] - as input and checks correctness of the bracket expression. In case of correctness, the Truth is returned, otherwise - False.

@@ -27,3 +27,6 @@ This file contains a function that accepts a string with a bracket sequence of t
 
 * _Subsequences_<br>
 This file contains two functions that work with subsequences. The first one looks for the largest common subsequence of two sequences and is called lcs(). It takes two strings and returns the length of the desired subsequence. The second function works with a single sequence, in which it searches for the greatest increasing subsequence and is called gis. It takes a string and returns the length of the greatest increasing subsequence.
+
+* _KMP_<br>
+This file contains an implementation of the Knuth-Morris-Pratt algorithm for searching for a substring in a string. The KMP function receives a comma-separated string and substring as input, and returns an array with indexes of the occurrence of the substring in the string.
